@@ -18,9 +18,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nuicybot/dummy-cci-release": "^3.0.0",
     "micromatch": "^4.0.2",
-    "unique-random-array": "^2.0.0",
-    "@nuicybot/dummy-cci-release": "2.0.0"
+    "unique-random-array": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
