@@ -4,11 +4,19 @@
       "preset": "eslint",
       "releaseRules": [
       {
-        "subject": "no-release:",
+        "subject": "*",
         "release": false
       },
       {
-        "subject": "!no-release:*",
+        "subject": "FEATURE-RELEASE:*",
+        "release": "minor"
+      },
+      {
+        "subject": "BUGFIX-RELEASE:*",
+        "release": "patch"
+      },
+      {
+        "subject": "BREAKING-RELEASE:*",
         "release": "major"
       }
       ],
