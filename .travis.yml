@@ -15,7 +15,7 @@ jobs:
   include:
     - stage: Test
       script: npm test
-      if: branch != master
+      if: NOT branch = master
     - stage: release
       if: branch = master
       node_js: "12"
