@@ -3,8 +3,10 @@ os:
   - linux
 
 node_js:
+  - "10.19"
   - "12"
-
+  - "14"
+  
 install:
   - npm version
   - npm install
