@@ -4,7 +4,7 @@
 
 
 BUGFIX-RELEASE: excluse master
-dummy repo for dummy testing cci release 1
+dummy repo for dummy testing cci release 2
 dependents of dummy-cci-release are:
 
 "@nui/dummy-cci-level-one"
